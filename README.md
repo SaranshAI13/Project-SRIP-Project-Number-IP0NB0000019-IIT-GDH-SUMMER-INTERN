@@ -31,13 +31,13 @@ model.train(
 
 import glob
 
-# Load trained model
+Load trained model
 model = YOLO("runs/detect/train/best.pt")
 
-# Get test images
+Get test images
 test_images = glob.glob("dataset/images/test/*.jpg")
 
-# Run predictions
+Run predictions
 results = model.predict(test_images, save=True, conf=0.5)
 print(" Predictions saved in 'runs/detect/predict/' folder.")
 
