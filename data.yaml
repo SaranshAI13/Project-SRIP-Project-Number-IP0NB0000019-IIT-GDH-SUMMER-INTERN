@@ -1,0 +1,11 @@
+train: "C:/Users/DELL/IIT_GDH/yolo_dataset/images/train"
+val: "C:/Users/DELL/IIT_GDH/yolo_dataset/images/val"
+
+nc: 1
+names: ["solar_panel"]
+
+
+
+
+
+
